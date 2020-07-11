@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scale=0">
+        <!--Meta Tag Social Sharing-->
+        <meta property="og:url" content=""/> <!--link da url do site-->
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="New Móveis Planejados"/>
+        <meta property="og:description" content="Projetos Customizados em Marcenaria"/>
+        <meta property="og:image" content=""/> <!--link da url da imagem-->
+        <!--Meta Tag Social Sharing-->
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript">
+            window.onload = function (){
+                document.querySelector(".menumobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') { 
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>  
+    <title>New Móveis Planejados</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <img src="imagem/logo.jpg">
+            <div class="menu">
+                <nav>
+                    <div class="menumobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+
+                    <ul class="active">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#residenciais">Residenciais</a></li>
+                        <li><a href="#comerciais">Comerciais</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul> <!-- active -->  
+                       
+                </nav>               
+            </div> <!-- menu -->
+        </div> <!-- container -->
+    </header>
+    <main>
+        <section class="banner">
+            <div class="slide">
+                <div class="slidearea">
+                    <h1>New Móveis Planejados<br /><span>Projetos Customizados</span></h1>
+                    <h2>" A Arte da Marcenaria Sob Medida "</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="sobre_titulo">
+                Sobre:
+            </div>
+            <div class="sobre_titulo_desc">
+                Quem Somos?
+            </div>
+            <div class="sobre_body">
+                <div class="sobre_body_desc_left">
+                    <p>Oi, eu sou o Newman Misina 
+                    e há mais de 20 anos dedico minha vída a arte da marcenaria customizada.</p>
+                    <p>Meu objetivo e atender aos clientes com projetos sob medida, estilo e alto padrão.</p>
+                    <p><em>" Para mim, marcenaria além de arte é um estilo de vida."</em></p>
+                </div>
+
+                <div class="sobre_body_desc_right">
+                    <div class="video_sobre">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CnndFgHLbrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="residenciais">
+            <div class="residenciais_titulo">
+                Projetos Residenciais
+            </div>
+            <div class="residenciais_titulo_desc">
+                Veja Nossos Trabalhos Residenciais
+            </div>
+
+            <div class="residenciais_body">
+
+                <div class="residencial_body_bloco_1">
+                    <img src="imagem/residencial01.jpg">
+                    <img src="imagem/residencial02.jpg">
+                    <img src="imagem/residencial07.jpg">
+                    <img src="imagem/residencial08.jpg">
+                </div>
+
+                <div class="residencial_body_bloco_2">
+                    <img src="imagem/residencial05.jpg">
+                    <img src="imagem/residencial06.jpg">
+                    <img src="imagem/residencial09.jpg">
+                    <img src="imagem/residencial10.jpg">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="comerciais">
+            <div class="comerciais_titulo">
+                Projetos Comerciais
+            </div>
+            <div class="comerciais_titulo_desc">
+                Veja Nossos Trabalhos Comerciais
+            </div>
+
+            <div class="comercial_body">
+
+                <div class="comercial_body_bloco_1">
+                    <img src="imagem/comercial1.jpg">
+                    <img src="imagem/comercial2.jpg">
+                    <img src="imagem/comercial7.jpg">
+                    <img src="imagem/comercial9.jpg">
+                </div>
+
+                <div class="comercial_body_bloco_2">
+                    <img src="imagem/comercial3.jpg">
+                    <img src="imagem/comercial4.jpg">
+                    <img src="imagem/comercial5.jpg">
+                    <img src="imagem/comercial6.jpg">
+                </div>
+
+            </div>
+        </section>
+
+        <footer id="contato">
+
+            <div class="contato_titulo">
+                Contato:
+            </div>
+
+            <div class="contato_titulo_desc">
+                Faça Seu Orçamento
+            </div>
+
+            <div class="contato_body">
+                <div class="contato_form">
+                    <div class="footer--item_area3">
+                        <form id="form_new_moveis" action="https://formspree.io/mqkygzrw" method="POST">
+                                
+                            <label>
+                                <input type="text" name="email" placeholder="seu e-mail"/>
+                            </label>
+
+                            <label>
+                                <input type="text" name="mensagem" placeholder="sua mensagem"/> 
+                            </label>
+
+                            <div class="button_form">
+                                <button class="button" type="submit">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="redes_sociais">
+
+                    <h4>New Móveis - Redes Sociais:</h4>
+
+                    <a href="https://www.facebook.com/newman.misina?fref=search&__tn__=%2Cd%2CP-R&eid=ARDkJDvooOhIwEiLhYXoMEjGc5_u3xwG63kXvZ3snd8BoTiMc_VEVxQQt-BhiyMlXKAPzs3nexrD7Y2R" target="_blank"><img src="imagem/face_logo.jpg" class="facebook"></a>
+                    <a href="https://www.instagram.com/newmanmoveis/"target="_blank"><img src="imagem/instagram_logo.jpg" class="insta"></a>
+                    <a href="https://www.youtube.com/channel/UCQHXhIc9JPNXwKm6NXgrCpw"target="_blank"><img src="imagem/youtube_logo.jpg" class="youtube"></a>
+
+
+                    <h5>Contatos:</h5>
+                    <p><a href="mailto:newman.newmoveisplanejados@gmail.com">newman.newmoveisplanejados@gmail.com</a></p>
+                    <p><a href="tel:11-94586-1188">whatsapp: +55 (16) 98122-1078</a></p>
+                </div>
+        </footer>
+    </main>
+</body>
+</html>
