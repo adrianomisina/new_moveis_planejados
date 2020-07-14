@@ -225,6 +225,8 @@ nav a:hover{
     padding-top:50px;
     padding-bottom:50px;
     background-color:rgba(197, 196, 196, 0.555);
+    display:flex;
+    flex-direction: column;
 }
 
 .contato_titulo,
@@ -313,9 +315,12 @@ nav a:hover{
     margin-top:5px;
 }
 
-.button_form .button{
-    font-size:12px;
+.button_form .button {
+    font-size: 14px;
     cursor: pointer;
+    background-color:rgb(109, 14, 14);
+    border-radius: 20px;
+    color: floralwhite;
 }
 
 @media (max-width:770px) {
